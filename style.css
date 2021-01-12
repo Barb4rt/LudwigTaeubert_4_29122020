@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+strong{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.btn-container{
+    display: flex;
+    margin-top: 3rem;
+    width: 50rem;
+    justify-content: space-between;
+}
+
+.lien>button{
+    cursor: pointer;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: teal;
+    color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.74);
+
+}
+
+.lien>button:hover{
+    background-color: rgb(3, 143, 143);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.74);
+
+}
